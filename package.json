@@ -6,18 +6,37 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "expo": "~48.0.18",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-dom": "^18.2.0",
+    "react-native": "0.71.8",
+    "react-native-web": "^0.19.6",
+    "react-native-reanimated": "^3.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/react-vite": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "~18.0.14",
-    "typescript": "^4.9.4"
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "prop-types": "^15.8.1",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.27",
+    "typescript": "^4.9.4",
+    "vite": "^4.4.4"
   },
   "private": true
 }
